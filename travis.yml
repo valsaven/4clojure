@@ -1,0 +1,8 @@
+language: clojure
+lein: lein
+script:
+  - lein test
+
+jdk:
+  - oraclejdk7
+  - oraclejdk8
